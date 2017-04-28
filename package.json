@@ -1,0 +1,15 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sami Darko <samidarko@gmail.com> (https://github.com/samidarko)",
+  "license": "MIT",
+  "scripts": {
+    "watch": "babel src -d dist -w"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0"
+  }
+}
